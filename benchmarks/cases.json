@@ -1,0 +1,28 @@
+[
+  {
+    "id": "binary-search-off-by-one",
+    "category": "code-debugging",
+    "prompt": "Explain and animate an off-by-one error in binary search."
+  },
+  {
+    "id": "tree-recursion-work-span",
+    "category": "algorithms",
+    "prompt": "Visualize the work and span of a balanced recursive tree computation."
+  },
+  {
+    "id": "pointer-stack-heap",
+    "category": "systems",
+    "prompt": "Animate how a C pointer connects a stack variable to heap memory."
+  },
+  {
+    "id": "gradient-descent-step",
+    "category": "machine-learning",
+    "prompt": "Show one gradient descent update on a two-dimensional loss surface."
+  },
+  {
+    "id": "dfa-transition-trace",
+    "category": "theory",
+    "prompt": "Animate a DFA processing a string one symbol at a time."
+  }
+]
+
