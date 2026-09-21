@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clarity Evals</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">CLARITY EVALUATION SYSTEM</p>
+        <h1>Measure every change.</h1>
+        <p class="lede">Daily reliability, latency, and cost signals for the Clarity animation pipeline.</p>
+      </header>
+      <section id="metrics" class="metrics" aria-label="Latest evaluation metrics"></section>
+      <section class="panel">
+        <div>
+          <p class="eyebrow">LATEST RUN</p>
+          <h2 id="run-id">Loading evaluation data</h2>
+        </div>
+        <p id="run-meta"></p>
+      </section>
+      <section class="panel table-panel">
+        <table>
+          <thead><tr><th>Case</th><th>Category</th><th>Render</th><th>Latency</th></tr></thead>
+          <tbody id="results"></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
+
